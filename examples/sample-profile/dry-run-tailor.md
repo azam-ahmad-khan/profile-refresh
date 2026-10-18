@@ -207,7 +207,8 @@ the check so far; that is not a guarantee for any particular system.
 ## Notes from the run (for the skill author)
 
 - The keyword check is a plain substring match: in a probe, a line "Made the same short films" counted as **both**
-  "SAM" and "LMS" found. Coverage for short acronyms can be a false PASS.
+  "SAM" and "LMS" found. Coverage for short acronyms can be a false PASS. Fixed since: whole-word matching,
+  case-sensitive for short acronyms.
 - Location also passed with "Dubai, UAE" removed from the contact line; the regex matched a "Word, Word" pair elsewhere
   near the top (e.g. "School, Dubai").
 - The base resume was "approved", yet it carried "storyboarding" (unconfirmed) and "(Grades 9–12)" (unconfirmed).
