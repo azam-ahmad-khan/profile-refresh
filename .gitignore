@@ -1,5 +1,6 @@
 # Personal career data never belongs in this repo.
 career-notes.md
+!skills/profile-refresh/templates/career-notes.md
 *.pdf
 *.docx
 .DS_Store
