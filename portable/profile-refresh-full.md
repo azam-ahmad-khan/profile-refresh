@@ -20,7 +20,23 @@ time you use it, and go **one or two steps at a time**, then wait.
 6. **Never broadcast.** Never click "share", "post", "notify network" or "share your new position".
 7. **Any profession.** Use the owner's field, words and target roles. Examples in the references are illustrations.
 
-## Pick the mode
+## Start: what do you want to do?
+
+Ask first, in plain words, and route:
+
+| Owner picks | Do |
+|---|---|
+| 1. Refresh my LinkedIn (and resume) | The full **first run** below, or a **re-run** if `career-notes.md` exists |
+| 2. Update my resume | First-run steps 1, 2 and 6 (master first, then a targeted copy if wanted). No LinkedIn changes |
+| 3. Tailor my resume to a job posting | tailor.md (see the section marked file: references/tailor.md) |
+| 4. Check my resume for application systems (ATS) | ats-check.md (see the section marked file: references/ats-check.md) only |
+| 5. Periodic check-up | rerun.md (see the section marked file: references/rerun.md) |
+
+Whatever they pick, set up as below first. Options 2–4 don't need the full first run: if there's no
+`career-notes.md` yet, do a short version of first-run steps 1–2 (goal, a few interview questions, and an evidence
+ledger built from the resume and any evidence) and start the notes file from that.
+
+## Set up
 
 - **How you reach LinkedIn.** If you can drive a browser, use **browser mode**: you open pages, fill forms and reload
   to verify. If you can't, use **copy-paste mode** (copy-paste-mode.md (see the section marked file: references/copy-paste-mode.md)): the owner
@@ -48,8 +64,9 @@ Work through this checklist in order (use your task list if you have one):
 - [ ] **5. Section by section.** Draft → confidentiality check → show → OK → save → reload → verify. Read
       linkedin-gotchas.md (see the section marked file: references/linkedin-gotchas.md) before touching LinkedIn forms. Switch Open to Work on
       here if they want it, with the visibility agreed in step 3.
-- [ ] **6. Resume.** Bring the resume in line with the approved wording. Save a **new file**
-      `<Name>-Resume-<YYYY-MM-DD>` in the owner's format and never overwrite the original.
+- [ ] **6. Resume.** Follow resume.md (see the section marked file: references/resume.md): update the **master resume** (all evidence, detailed
+      wording, the same facts as LinkedIn), then build targeted copies from it as needed (style, page target, DOCX +
+      PDF, ATS check (see the section marked file: references/ats-check.md)). Never overwrite the original.
 - [ ] **7. Gap → proof of work.** Compare the target postings with the public evidence and suggest one concrete,
       scoped project (proof-of-work.md (see the section marked file: references/proof-of-work.md)). Once it exists, add it to Projects and Featured.
 - [ ] **8. Wrap up.** Update `career-notes.md`: what is live now, decisions, open questions, dated reminders, and the
@@ -234,7 +251,8 @@ this sentence on a public page?** If you're unsure, generalize it or leave it ou
 ## Private sources
 
 Appraisals, internal reports and emails can serve as *evidence* in the ledger, because they prove a claim to you. Never
-quote them, name them or reveal their numbers publicly. Employer-owned performance data (exam results, sales
+quote them or name them publicly. The owner's *own output* that a document confirms ("built 42 simulations",
+"mentored two new teachers") is theirs to state, as long as it doesn't reveal confidential detail. Employer-owned performance data (exam results, sales
 figures, ratings, defect counts) stays off the profile unless the employer has published it, even when it's good.
 For a result that fell short of its goal, publish neither number. Describe the work instead.
 
@@ -266,6 +284,9 @@ or a peer's) if you are unsure of tone. Draft from the evidence ledger only.
 | **Verified** | Backed by something other than the owner's own resume or profile: an appraisal, certificate, published work, public page, official letter (record the source) | Yes |
 | **Owner-confirmed** | The owner states it (including everything that's only on their resume or current profile) and confirms it when asked | Yes, without numbers unless they confirm the exact number and where it comes from |
 | **Open** | Vague, unproven, a goal or target, or contradicts another source | No. Ask about it |
+
+A resume or profile text the owner approved in an earlier run of this skill counts as *Owner-confirmed* for the
+lines it contains, unless the ledger marks a line otherwise.
 
 Watch for: goals written as results ("will reduce…"), team results claimed as personal ones, inflated titles,
 date gaps or overlaps between resume and LinkedIn, and numbers with no source.
@@ -301,8 +322,9 @@ more descriptive title only in the description ("Role: …").
 **Open to Work titles.** Up to 5. Choose titles a recruiter would search for, not internal ones, and check the
 canonical names (see linkedin-gotchas.md (see the section marked file: linkedin-gotchas.md)).
 
-**Resume.** Same facts and titles as LinkedIn, tighter wording, usually 1–2 pages. Keep the owner's format. Save a
-new dated copy. If career-ops is in use, update `cv.md` only with the owner's OK (see career-ops.md (see the section marked file: career-ops.md)).
+**Resume.** LinkedIn mirrors the **master resume**: same facts and the same detailed wording. Targeted resumes are
+shorter selections from it. See resume.md (see the section marked file: resume.md). If career-ops is in use, its `cv.md` is the master; update it
+only with the owner's OK (see career-ops.md (see the section marked file: career-ops.md)).
 
 ## Style
 
@@ -427,6 +449,202 @@ use typical requirements instead, label them clearly as "typical, not from a rea
 
 ---
 
+<!-- file: references/resume.md -->
+
+# Resume
+
+There are two kinds, and the order matters:
+
+- **Master resume.** Every evidence-backed bullet, in the long, detailed wording. No page limit, and **never sent to
+  employers**. It's the single source of truth: LinkedIn mirrors it (same facts, same detailed wording), and every
+  run updates it first. File: `<First>-<Last>-Master-Resume.md/.docx/.pdf`. If the owner uses career-ops, its `cv.md`
+  plays this role (see career-ops.md (see the section marked file: career-ops.md)).
+- **Targeted resume.** Built *from the master*, never from an earlier targeted copy. Choose the bullets for one
+  purpose (a posting, or a general version for a job type), aim for a page target, then run the ATS check. File:
+  `<First>-<Last>-Resume-<Company or purpose>-<YYYY-MM-DD>.md/.docx/.pdf`. For a specific posting, follow
+  tailor.md (see the section marked file: tailor.md).
+
+**Resume and LinkedIn must match on facts**: titles, employers, dates and claims. Wording and level of detail can
+differ. Content comes only from the evidence ledger. Layout never decides content: if a page looks empty, add
+*evidence-backed* bullets from the master; never pad.
+
+## 1. Ask (one or two at a time)
+
+1. **Style.** Offer three choices:
+   - **(a) Polished, keeping your look.** Keep the owner's current fonts, colours and section order, and tidy
+     spacing, alignment and consistency.
+   - **(b) Plain ATS.** Single column, one font, black text, simple headings with a rule under them, no colour bands.
+     This is the safest for online application systems.
+   - **(c) Match a sample.** The owner provides a resume whose *layout* they like. Copy only its layout: fonts,
+     colours, heading style, order and margins. Never copy its wording or content.
+2. **Length** (targeted resumes only). Ask for a target page count (usually 1 page for under ~5 years of
+   experience, 2 for more). Then fit it with the loop below.
+3. **Paper.** US Letter or A4 (A4 outside North America, unless they apply mainly to US companies).
+
+## Page-fit loop (targeted resumes)
+
+1. Start from the master and rank its bullets for this purpose: relevance to the target first, then recency.
+2. Build, export the PDF, and run the ATS check with `--pages <target>`.
+3. **Too long?** Drop the lowest-ranked bullet (usually the oldest and least relevant), rebuild and re-check. Repeat
+   one bullet at a time. Never shrink the font below 9.5 pt or the margins below 0.5 in to make it fit.
+4. **Last page under half full** (or a single page under ~70%)? Add back the highest-ranked dropped bullet and re-check.
+5. Tell the owner which master bullets were dropped and why ("older, not relevant to this posting").
+
+## 2. Write it as Markdown first
+
+Write the resume in this simple format. It's easy to show as a draft, and the builder script turns it into Word:
+
+```markdown
+# Full Name
+Headline (same as LinkedIn; a tailored copy may adjust it to the role)
+City, Country | email@example.com | +00 00 000 0000 | linkedin.com/in/name
+
+## Summary
+Two or three lines.
+
+## Experience
+### Job Title | Employer, City | Mon YYYY – Mon YYYY
+- **Label:** action + what + verified outcome.
+
+## Education
+- Degree, School, YYYY
+
+## Skills
+- **Group:** skill, skill, skill
+```
+
+Use standard section names (Summary, Experience, Education, Skills, Certifications, Projects), one date format
+everywhere ("Aug 2021 – Present"), and contact details as plain text in the body. Show the draft and get the OK.
+
+## 3. Build the files (DOCX + PDF)
+
+The output is a **Word file** (safest for application systems, and the owner can edit it) plus a **PDF** to send.
+Name them `<First>-<Last>-Resume-<YYYY-MM-DD>.docx/.pdf`, saved next to the original. Never overwrite the original.
+
+- **If you can run code:** use `scripts/resume_docx.py` from this skill's folder:
+  `uv run scripts/resume_docx.py resume.md -o <name>.docx --style plain|polished [--font Arial] [--accent C55A11]
+  [--band EDEDED] --paper letter|a4 [--pdf]`. Always pass `--paper` (the default is Letter). Set `--font`, `--accent`
+  and `--band` to match style (a) or (c).
+  `--pdf` uses LibreOffice if it's installed. Otherwise ask the owner to open the .docx in Word, Pages or Google
+  Docs and export it as PDF under the same name. If `uv` is missing, ask the owner before installing anything; the
+  alternative is `python3 -m pip install --user python-docx` and then `python3 scripts/resume_docx.py …`.
+- **If you can't run code:** give the owner the Markdown and these steps: paste it into Word or Google Docs, use
+  Heading styles for the name and section titles, bullets for the lists, one font, then export to PDF.
+
+Then run the ATS check (see the section marked file: ats-check.md) on the PDF (and the DOCX) and fix any FAIL before showing the result. For the
+master, add `--master` (no page target).
+
+## Layout rules (any tool)
+
+- One column, no tables, text boxes, icons for contact details, or text inside images.
+- Keep each **role header** (title, employer, dates) together with its first bullet, but let bullet lists flow across
+  pages. Never keep a whole role block or section (Skills included) together: three overflowing lines then push the
+  whole block onto a new page, leaving a gap and adding a page.
+  In HTML/CSS: `break-inside: avoid; break-after: avoid` on headers only, never on a whole role or section.
+- **Links are clickable** in both the DOCX and the PDF: email (`mailto:`), phone (`tel:`), LinkedIn, GitHub or
+  portfolio, and project URLs. Still show the full address as text (`linkedin.com/in/name`, not "LinkedIn"),
+  because some parsers drop hyperlinks. The builder does both. In HTML, use `<a href>` with the full URL as the
+  link text. Word, Pages and Google Docs keep links when exporting to PDF.
+- Letter-spacing (tracking) on headings is off, or text extracts as "C o n t a c t".
+- Colour bands and coloured titles are fine as long as the text is real text. Keep the text-on-band contrast high.
+
+---
+
+<!-- file: references/ats-check.md -->
+
+# ATS check
+
+An applicant tracking system (ATS) is the software employers use to collect applications. It turns a resume file
+into text and fields (name, contact, jobs, dates). If that conversion goes wrong, a strong resume can look empty or
+scrambled to a recruiter. This check catches the usual causes. **Never tell the owner a resume is "guaranteed to
+pass".** Each system is different. Say "no problems found by the check".
+
+## Run it
+
+- **If you can run code:**
+  `uv run scripts/ats_check.py <file.pdf|file.docx> --name "First Last" [--pages 2] [--keywords keywords.txt] [--text]`
+  It prints a PASS / WARN / FAIL table with a fix for each item and exits non-zero on any FAIL. Always check the PDF
+  the owner will actually send. A Word file can't show pages, page fill or fonts, so if you only have the DOCX, ask
+  the owner to export the PDF and check that too. `--text` shows the extracted text, so you can read it the way an ATS would.
+- **If you can't:** ask the owner to open the PDF, select all (Cmd/Ctrl+A), copy, and paste the text to you. Then walk
+  the checklist below by reading that text.
+
+## What it checks
+
+| Check | Fails or warns when |
+|---|---|
+| Text extracts, reading order | Little or no text (scanned or image resume), or the name isn't at the top |
+| Letter-spaced text | Headings extract as "C o n t a c t" |
+| Contact details | Email, phone, LinkedIn URL or "City, Country" missing, not near the top, or only in the page header |
+| Section headings | Non-standard names ("Education Credentials" → "Education"), or no Experience section |
+| Roles and dates | Mixed date formats, or role lines without dates |
+| Layout | Multiple columns, tables, text boxes, or text that exists only inside images |
+| Fonts | Fonts not embedded in the PDF |
+| Links | Email, phone or URLs shown as text but not clickable, or links pointing to addresses not shown as text |
+| Pages | Page count differs from the target; a one-page resume under ~70% full, or a longer one whose last page is under half full |
+| File name | Spaces, "final", "v2", "copy", or no name in it |
+| Keywords (optional) | Posting keywords missing from the text (whole words only; short all-caps acronyms must match case) |
+
+## Second opinion (optional)
+
+The open-source [OpenResume parser](https://open-resume.com/resume-parser) (AGPL-3.0) reads a PDF and shows the fields
+it found. It says it runs entirely in the browser without uploading the file. Offer it, and let the owner decide
+whether to use it, since it's a third-party website. Ask them to compare the fields it shows with the resume.
+
+## Report
+
+Show FAILs first, then WARNs, each with its fix, and say which ones you've already fixed. A WARN can be fine on purpose
+(for example a photo for a market that expects one). Say so, and leave the choice to the owner.
+
+---
+
+<!-- file: references/tailor.md -->
+
+# Tailor the resume to one job posting
+
+Tailoring means retelling real work in the employer's language: reorder, re-emphasize, and use the posting's words
+where they're truthful. It never means adding skills or results the owner doesn't have. Anything the posting wants
+that the evidence doesn't show becomes a **question**, never invented text.
+
+## If career-ops is installed
+
+[career-ops](https://github.com/career-ops-hq/career-ops) already tailors a CV PDF per job, extracts the posting's
+keywords, and has a fact-check that blocks numbers missing from the owner's sources. Tell the owner that plainly and
+offer two options: hand the tailoring to career-ops (it reads the same `cv.md`), or do it here and keep its outputs in
+the career-ops folders. What this skill adds either way is the evidence table in step 2, the owner questions in step 3,
+and the ATS check (see the section marked file: ats-check.md) with keyword coverage.
+
+## Steps
+
+1. **Read the posting** (link or pasted text) and the **master resume** (resume.md (see the section marked file: resume.md)). Always start from the
+   master, never from an earlier targeted copy. If there's no master yet, build it first from the evidence ledger. If
+   there's no ledger either, do the short setup in SKILL.md.
+2. **Requirement table.** One row per requirement:
+
+   | Requirement | Must / Nice | Keywords | Evidence (ledger) | Transferable from | Gap? |
+   |---|---|---|---|---|---|
+
+   "Transferable from" is real work that shows the same skill under another name. For example, a teacher's
+   "differentiated lesson plans" maps to an instructional designer's "learner personas". Name the source each time.
+3. **Ask about the gaps**, one or two at a time: "The posting asks for X. Have you done anything like it, even
+   small?" Add confirmed answers to the ledger. If the answer is no, it stays off the resume. Suggest how to address
+   it honestly instead (cover letter, proof-of-work project, a course).
+4. **Select and rewrite** in the resume Markdown format (resume.md (see the section marked file: resume.md)): pick master bullets that serve the
+   must-haves and put them first, echo the posting's words where the evidence supports them, adjust the summary and
+   headline line to this role, and fit the page target with the page-fit loop (usually 2 pages). Facts must stay
+   identical to the master and LinkedIn. Run the confidentiality check (see the section marked file: confidentiality.md), then show a
+   diff-style draft (moved / reworded / added from ledger / removed) and get the OK. Derived facts (e.g. "9 years"
+   worked out from dates) are fine, but say how you worked them out. List the master bullets you dropped and why.
+5. **Save a new set per company** next to the base resume: `<First>-<Last>-Resume-<Company>-<YYYY-MM-DD>` as `.md`
+   (the source), `.docx` and `.pdf`. Never overwrite the base resume.
+6. **ATS check with keyword coverage.** Put the posting's must-have keywords in a text file (one per line) and run the
+   check on the master (with `--master`, the "before") and on the new file (with `--pages`, the "after"). Report
+   "keyword coverage before → after" and the remaining gaps, and say which gaps are honest (no evidence) and which
+   can be fixed. If a new answer from the owner added evidence, add it to the master too.
+7. **Log it** in `career-notes.md` → *Tailored versions*: company, role, date, file, coverage, open gaps.
+
+---
+
 <!-- file: references/proof-of-work.md -->
 
 # Gap → proof of work
@@ -538,7 +756,7 @@ career-ops applies them to specific jobs.
 
 | career-ops file | How to use it here |
 |---|---|
-| `cv.md` | Read it as the resume. It is **owner-owned**: change it only with the owner's explicit OK, show the diff, and keep a dated backup copy |
+| `cv.md` | It plays the role of the **master resume**. It is **owner-owned**: change it only with the owner's explicit OK, show the diff, and keep a dated backup copy. career-ops builds its tailored CVs from it, just as targeted resumes come from the master here |
 | `article-digest.md` | Read it as evidence (proof points). Offer to append a finished proof-of-work project, with the OK |
 | `config/profile.yml` | Read it for target roles, location and preferences. Don't write to it |
 | `modes/_profile.md` | Read it for the owner's narrative and archetypes, to keep the LinkedIn wording consistent |
@@ -557,6 +775,9 @@ If the owner uses career-ops, offer once (on OK, showing the diff) to fill these
 | Proof-of-work project (name, public link, verified outcome) | `narrative.proof_points[]` (`name`, `url`, `hero_metric`) |
 | Location to show | `location.city`, `location.country` |
 | LinkedIn URL, portfolio link | `candidate.linkedin`, `candidate.portfolio_url` |
+
+For tailoring to a specific posting, see tailor.md (see the section marked file: tailor.md): career-ops' own tailoring is the better tool there,
+and this skill adds the evidence table, the gap questions and the ATS check.
 
 career-ops also has `project` (scores a portfolio idea), `upskill` and `expand` (find missing skills) modes. If the
 owner has it installed, suggest running its `project` mode on the proof-of-work idea for a second opinion.
@@ -620,6 +841,17 @@ Private working notes for the profile-refresh skill. Keep this file on your own 
 - Featured:
 - Projects:
 - Resume file (latest approved copy):
+
+## Resume
+
+- Style (polished / plain ATS / matches sample …), font, accent colour, paper, target pages:
+- Master resume (the single source of truth; never sent) and date last updated:
+- Latest general targeted resume (DOCX + PDF) and its ATS result:
+
+## Tailored versions
+
+| Date | Company · role | File | Keyword coverage master → targeted | Master bullets dropped (why) | Open gaps |
+|---|---|---|---|---|---|
 
 ## Decisions
 

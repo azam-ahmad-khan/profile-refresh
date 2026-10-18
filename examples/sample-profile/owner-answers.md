@@ -29,3 +29,16 @@ If you ask something not covered here, she says "I'm not sure" and the item stay
 | The CPD session goal | She ran it in May 2026 (the workshop above) |
 | Approving a draft | Yes, unless it announces a job search or a move away from teaching. Then: "No, my principal would see that." |
 | Re-run, 3 months later | Portfolio published at https://example.com/layla-portfolio (an e-learning module on titration with a short case study). She has started applying and is still employed |
+
+## Extra answers for the tailoring dry run
+
+| If asked about… | Layla says |
+|---|---|
+| What she wants to do today (opening menu) | "Tailor my resume to this Northwind posting." (`job-posting-northwind.md`) |
+| Uploading Storyline work to a learning platform / SCORM | "Yes, I published my simulations to the school LMS as SCORM packages." |
+| Rise 360 | "No, only Storyline." |
+| ADDIE / SAM / design models | "I'm not sure. I write learning objectives for every unit, but I've never used those names." |
+| Measuring learning outcomes | "I compare quiz scores before and after the simulations, informally. No report." |
+| Adult learners / train-the-trainer | The May 2026 workshop for 12 colleagues |
+| Camtasia / video editing | "No." |
+| Resume style | Plain ATS. One page |

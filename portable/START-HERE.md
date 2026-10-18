@@ -18,6 +18,12 @@ switch. You do the clicking. After each save, paste back what LinkedIn now shows
 it. At the end it gives you an updated `career-notes.md`. Save that file and upload it next time, so the check-up
 picks up where you left off.
 
+## Resume builder and ATS check
+
+The Word builder and the ATS check are small Python scripts in `skills/profile-refresh/scripts/`. AIs that can run code
+(Claude Code, Codex, Gemini CLI, cloud agents) use them directly. In a chat-only AI, the instructions fall back to a
+manual checklist: you paste the resume text and the AI reads it the way an application system would.
+
 ## Safety, whichever AI you use
 
 - Sign in to LinkedIn yourself. Never give an AI your password or verification codes.

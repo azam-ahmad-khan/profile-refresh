@@ -10,7 +10,7 @@ career-ops applies them to specific jobs.
 
 | career-ops file | How to use it here |
 |---|---|
-| `cv.md` | Read it as the resume. It is **owner-owned**: change it only with the owner's explicit OK, show the diff, and keep a dated backup copy |
+| `cv.md` | It plays the role of the **master resume**. It is **owner-owned**: change it only with the owner's explicit OK, show the diff, and keep a dated backup copy. career-ops builds its tailored CVs from it, just as targeted resumes come from the master here |
 | `article-digest.md` | Read it as evidence (proof points). Offer to append a finished proof-of-work project, with the OK |
 | `config/profile.yml` | Read it for target roles, location and preferences. Don't write to it |
 | `modes/_profile.md` | Read it for the owner's narrative and archetypes, to keep the LinkedIn wording consistent |
@@ -29,6 +29,9 @@ If the owner uses career-ops, offer once (on OK, showing the diff) to fill these
 | Proof-of-work project (name, public link, verified outcome) | `narrative.proof_points[]` (`name`, `url`, `hero_metric`) |
 | Location to show | `location.city`, `location.country` |
 | LinkedIn URL, portfolio link | `candidate.linkedin`, `candidate.portfolio_url` |
+
+For tailoring to a specific posting, see [tailor.md](tailor.md): career-ops' own tailoring is the better tool there,
+and this skill adds the evidence table, the gap questions and the ATS check.
 
 career-ops also has `project` (scores a portfolio idea), `upskill` and `expand` (find missing skills) modes. If the
 owner has it installed, suggest running its `project` mode on the proof-of-work idea for a second opinion.

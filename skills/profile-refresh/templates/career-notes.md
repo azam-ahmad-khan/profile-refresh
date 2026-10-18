@@ -47,6 +47,17 @@ Private working notes for the profile-refresh skill. Keep this file on your own 
 - Projects:
 - Resume file (latest approved copy):
 
+## Resume
+
+- Style (polished / plain ATS / matches sample …), font, accent colour, paper, target pages:
+- Master resume (the single source of truth; never sent) and date last updated:
+- Latest general targeted resume (DOCX + PDF) and its ATS result:
+
+## Tailored versions
+
+| Date | Company · role | File | Keyword coverage master → targeted | Master bullets dropped (why) | Open gaps |
+|---|---|---|---|---|---|
+
 ## Decisions
 
 - YYYY-MM-DD: <decision> (reason)

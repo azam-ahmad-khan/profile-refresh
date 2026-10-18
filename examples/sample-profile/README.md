@@ -18,4 +18,7 @@ that the skill should catch **without being told**. `owner-answers.md` only answ
 | 10 | A fact only reachable through the context interview (the May 2026 workshop) | `owner-answers.md` |
 | 11 | Unofficial job title on resume and LinkedIn | `owner-answers.md` (only if asked) |
 
+`dry-run-tailor.md` records the tailor-to-a-posting mode against the fictional `job-posting-northwind.md`, using
+`Layla-Haddad-Resume-2026-10-18.md` as the base resume.
+
 `dry-run.md` is a recorded walkthrough in copy-paste mode, made from `portable/profile-refresh-full.md` alone.

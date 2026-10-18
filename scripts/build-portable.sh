@@ -10,7 +10,7 @@ out=portable/profile-refresh-full.md
   awk 'NR==1 && /^---$/ {fm=1; next} fm && /^---$/ {fm=0; next} !fm' "$skill/SKILL.md"
   # Reading order for a chat AI; career-ops goes last because most people don't use it.
   for name in context-interview privacy confidentiality writing-guide linkedin-gotchas copy-paste-mode \
-              proof-of-work rerun career-ops; do
+              resume ats-check tailor proof-of-work rerun career-ops; do
     f="$skill/references/$name.md"
     echo
     echo "---"

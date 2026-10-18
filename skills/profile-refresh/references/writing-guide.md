@@ -11,6 +11,9 @@ or a peer's) if you are unsure of tone. Draft from the evidence ledger only.
 | **Owner-confirmed** | The owner states it (including everything that's only on their resume or current profile) and confirms it when asked | Yes, without numbers unless they confirm the exact number and where it comes from |
 | **Open** | Vague, unproven, a goal or target, or contradicts another source | No. Ask about it |
 
+A resume or profile text the owner approved in an earlier run of this skill counts as *Owner-confirmed* for the
+lines it contains, unless the ledger marks a line otherwise.
+
 Watch for: goals written as results ("will reduce…"), team results claimed as personal ones, inflated titles,
 date gaps or overlaps between resume and LinkedIn, and numbers with no source.
 
@@ -45,8 +48,9 @@ more descriptive title only in the description ("Role: …").
 **Open to Work titles.** Up to 5. Choose titles a recruiter would search for, not internal ones, and check the
 canonical names (see [linkedin-gotchas.md](linkedin-gotchas.md)).
 
-**Resume.** Same facts and titles as LinkedIn, tighter wording, usually 1–2 pages. Keep the owner's format. Save a
-new dated copy. If career-ops is in use, update `cv.md` only with the owner's OK (see [career-ops.md](career-ops.md)).
+**Resume.** LinkedIn mirrors the **master resume**: same facts and the same detailed wording. Targeted resumes are
+shorter selections from it. See [resume.md](resume.md). If career-ops is in use, its `cv.md` is the master; update it
+only with the owner's OK (see [career-ops.md](career-ops.md)).
 
 ## Style
 

@@ -1,6 +1,6 @@
 ---
 name: profile-refresh
-description: Refreshes a person's LinkedIn profile and resume from their real evidence, for any profession. It interviews them for context, sets privacy first, drafts each change and saves it only after the person approves, checks for confidential employer details, and suggests a proof-of-work project to fill gaps. Use when someone wants to update, optimize, rewrite or pivot their LinkedIn profile, headline, About, experience or resume, set Open to Work, prepare for a job search, or do a periodic profile check-up.
+description: Refreshes a person's LinkedIn profile and resume from their real evidence, for any profession. It interviews them for context, sets privacy first, drafts each change and saves it only after the person approves, checks for confidential employer details, builds ATS-friendly resumes, tailors them to job postings without inventing anything, and suggests a proof-of-work project to fill gaps. Use when someone wants to update, optimize, rewrite or pivot their LinkedIn profile or resume, tailor a resume to a job, check a resume for ATS problems, set Open to Work, prepare for a job search, or do a periodic profile check-up.
 license: MIT
 compatibility: Works with any capable AI assistant. Browser mode needs a tool that can drive linkedin.com; without one, copy-paste mode has the person do the clicks.
 ---
@@ -24,7 +24,23 @@ time you use it, and go **one or two steps at a time**, then wait.
 6. **Never broadcast.** Never click "share", "post", "notify network" or "share your new position".
 7. **Any profession.** Use the owner's field, words and target roles. Examples in the references are illustrations.
 
-## Pick the mode
+## Start: what do you want to do?
+
+Ask first, in plain words, and route:
+
+| Owner picks | Do |
+|---|---|
+| 1. Refresh my LinkedIn (and resume) | The full **first run** below, or a **re-run** if `career-notes.md` exists |
+| 2. Update my resume | First-run steps 1, 2 and 6 (master first, then a targeted copy if wanted). No LinkedIn changes |
+| 3. Tailor my resume to a job posting | [tailor.md](references/tailor.md) |
+| 4. Check my resume for application systems (ATS) | [ats-check.md](references/ats-check.md) only |
+| 5. Periodic check-up | [rerun.md](references/rerun.md) |
+
+Whatever they pick, set up as below first. Options 2–4 don't need the full first run: if there's no
+`career-notes.md` yet, do a short version of first-run steps 1–2 (goal, a few interview questions, and an evidence
+ledger built from the resume and any evidence) and start the notes file from that.
+
+## Set up
 
 - **How you reach LinkedIn.** If you can drive a browser, use **browser mode**: you open pages, fill forms and reload
   to verify. If you can't, use **copy-paste mode** ([copy-paste-mode.md](references/copy-paste-mode.md)): the owner
@@ -52,8 +68,9 @@ Work through this checklist in order (use your task list if you have one):
 - [ ] **5. Section by section.** Draft → confidentiality check → show → OK → save → reload → verify. Read
       [linkedin-gotchas.md](references/linkedin-gotchas.md) before touching LinkedIn forms. Switch Open to Work on
       here if they want it, with the visibility agreed in step 3.
-- [ ] **6. Resume.** Bring the resume in line with the approved wording. Save a **new file**
-      `<Name>-Resume-<YYYY-MM-DD>` in the owner's format and never overwrite the original.
+- [ ] **6. Resume.** Follow [resume.md](references/resume.md): update the **master resume** (all evidence, detailed
+      wording, the same facts as LinkedIn), then build targeted copies from it as needed (style, page target, DOCX +
+      PDF, [ATS check](references/ats-check.md)). Never overwrite the original.
 - [ ] **7. Gap → proof of work.** Compare the target postings with the public evidence and suggest one concrete,
       scoped project ([proof-of-work.md](references/proof-of-work.md)). Once it exists, add it to Projects and Featured.
 - [ ] **8. Wrap up.** Update `career-notes.md`: what is live now, decisions, open questions, dated reminders, and the

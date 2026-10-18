@@ -22,7 +22,8 @@ this sentence on a public page?** If you're unsure, generalize it or leave it ou
 ## Private sources
 
 Appraisals, internal reports and emails can serve as *evidence* in the ledger, because they prove a claim to you. Never
-quote them, name them or reveal their numbers publicly. Employer-owned performance data (exam results, sales
+quote them or name them publicly. The owner's *own output* that a document confirms ("built 42 simulations",
+"mentored two new teachers") is theirs to state, as long as it doesn't reveal confidential detail. Employer-owned performance data (exam results, sales
 figures, ratings, defect counts) stays off the profile unless the employer has published it, even when it's good.
 For a result that fell short of its goal, publish neither number. Describe the work instead.
 
