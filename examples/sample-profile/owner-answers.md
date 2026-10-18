@@ -42,3 +42,21 @@ If you ask something not covered here, she says "I'm not sure" and the item stay
 | Adult learners / train-the-trainer | The May 2026 workshop for 12 colleagues |
 | Camtasia / video editing | "No." |
 | Resume style | Plain ATS. One page |
+
+## Extra answers for the applying dry run
+
+| If asked about… | Layla says |
+|---|---|
+| What she wants to do today (opening menu) | "Apply to jobs. I found three postings": `job-posting-northwind.md`, `job-posting-brightpath.md`, `job-posting-datasci.md` |
+| A master resume | "I only have the resume we made last time" (`Layla-Haddad-Resume-2026-10-18.md`) |
+| Public visibility now | "Fine to turn it on. I've decided to apply openly now, and I've told my principal." |
+| Visa / work authorization | Her UAE residence visa is sponsored by her current school. A new employer would have to sponsor a new one |
+| Salary expectation | "I'm not sure. Around AED 18,000 a month? What's normal?" |
+| Notice period | Two months, per her contract |
+| Anyone she knows at Northwind | No one directly; a former colleague, Priya, is a 1st-degree connection who works there as a learning designer |
+| Portal account and password | She creates the account and types the password herself |
+| Personal details on the Northwind portal | OK to fill |
+| Cover letter | Yes, short |
+| Follow-up timing | Applied 2026-10-18; no reply by 2026-10-28 |
+| Interview | Northwind invites her to a first interview on 2026-11-03 |
+| Outcome | Offer received 2026-11-20; she accepts, starting 2027-01-05 |

@@ -58,6 +58,13 @@ Private working notes for the profile-refresh skill. Keep this file on your own 
 | Date | Company · role | File | Keyword coverage master → targeted | Master bullets dropped (why) | Open gaps |
 |---|---|---|---|---|---|
 
+## Applications
+
+Statuses: skipped / applied / screen / interview / offer / accepted / rejected / withdrawn. Channel: Easy Apply / company site / referral.
+
+| Date | Company | Role | Posting link | Resume file sent | Channel | Contact reached | Status | Next action + date |
+|---|---|---|---|---|---|---|---|---|
+
 ## Decisions
 
 - YYYY-MM-DD: <decision> (reason)

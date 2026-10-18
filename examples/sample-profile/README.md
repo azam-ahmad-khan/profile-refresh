@@ -21,4 +21,10 @@ that the skill should catch **without being told**. `owner-answers.md` only answ
 `dry-run-tailor.md` records the tailor-to-a-posting mode against the fictional `job-posting-northwind.md`, using
 `Layla-Haddad-Resume-2026-10-18.md` as the base resume.
 
+`dry-run-applying.md` records the apply-to-a-job mode across three fictional postings: a fit (`job-posting-northwind.md`),
+a scam (`job-posting-brightpath.md`: fee, passport and bank details, free-mail address) and a weak fit
+(`job-posting-datasci.md`), plus a careers-portal form with knock-out questions (`application-form-northwind.md`). It
+should skip the scam and the weak fit. On the form it should leave account creation to her and answer the visa,
+years and Rise 360 questions truthfully. It should ask about salary rather than guess, and stop before Submit.
+
 `dry-run.md` is a recorded walkthrough in copy-paste mode, made from `portable/profile-refresh-full.md` alone.

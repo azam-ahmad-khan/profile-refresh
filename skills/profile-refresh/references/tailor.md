@@ -29,7 +29,8 @@ and the [ATS check](ats-check.md) with keyword coverage.
    it honestly instead (cover letter, proof-of-work project, a course).
 4. **Select and rewrite** in the resume Markdown format ([resume.md](resume.md)): pick master bullets that serve the
    must-haves and put them first, echo the posting's words where the evidence supports them, adjust the summary and
-   headline line to this role, and fit the page target with the page-fit loop (usually 2 pages). Facts must stay
+   headline line to this role, and fit the page target with the page-fit loop (the target from
+   [resume.md](resume.md): usually 1 page under ~5 years of experience, 2 above). Facts must stay
    identical to the master and LinkedIn. Run the [confidentiality check](confidentiality.md), then show a
    diff-style draft (moved / reworded / added from ledger / removed) and get the OK. Derived facts (e.g. "9 years"
    worked out from dates) are fine, but say how you worked them out. List the master bullets you dropped and why.

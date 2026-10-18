@@ -8,7 +8,9 @@ has changed.
 - [ ] **1. Catch up.** Read `career-notes.md`: last run date, what is live, open questions, reminders, decisions, and
       *LinkedIn changes seen*. Tell the owner in 3–4 lines what happened last time and what's due now.
 - [ ] **2. Due reminders first.** Any reminder whose date has passed or whose condition is now true, for example
-      "turn public visibility back on when applying" or "remove Open to Work after accepting an offer".
+      "turn public visibility back on when applying" or "remove Open to Work after accepting an offer". Then read the
+      *Applications* table: flag follow-ups past their date, and for any *offer*, go through the "Accepted an offer"
+      row below.
 - [ ] **3. What's new?** Ask (one question at a time): new role, title or team? New project, certificate, publication
       or award? Are the target roles the same? Still job-hunting, and still employed? Read any new evidence they point
       to and add it to the ledger.

@@ -1,6 +1,6 @@
 ---
 name: profile-refresh
-description: Refreshes a person's LinkedIn profile and resume from their real evidence, for any profession. It interviews them for context, sets privacy first, drafts each change and saves it only after the person approves, checks for confidential employer details, builds ATS-friendly resumes, tailors them to job postings without inventing anything, and suggests a proof-of-work project to fill gaps. Use when someone wants to update, optimize, rewrite or pivot their LinkedIn profile or resume, tailor a resume to a job, check a resume for ATS problems, set Open to Work, prepare for a job search, or do a periodic profile check-up.
+description: Refreshes a person's LinkedIn profile and resume from their real evidence, for any profession, and guides job applications end to end. It interviews them for context, sets privacy first, drafts each change and saves it only after the person approves, checks for confidential employer details, builds ATS-friendly resumes, tailors them to job postings without inventing anything, and suggests a proof-of-work project to fill gaps. Use when someone wants to update, optimize, rewrite or pivot their LinkedIn profile or resume, tailor a resume to a job, check a resume for ATS problems, apply to jobs, track applications, prepare for interviews, set Open to Work, or do a periodic profile check-up.
 license: MIT
 compatibility: Works with any capable AI assistant. Browser mode needs a tool that can drive linkedin.com; without one, copy-paste mode has the person do the clicks.
 ---
@@ -21,7 +21,8 @@ time you use it, and go **one or two steps at a time**, then wait.
 4. **Confidentiality check** ([confidentiality.md](references/confidentiality.md)) on every draft before you show it.
 5. **No passwords, ever.** At a sign-in page, a verification code or a CAPTCHA, stop and ask the owner to do it
    themselves, then carry on. Never ask for, type or store credentials.
-6. **Never broadcast.** Never click "share", "post", "notify network" or "share your new position".
+6. **Never broadcast, submit or send.** Never click "share", "post", "notify network" or "share your new position".
+   Never press Submit on an application or send a message. The owner does that, after checking.
 7. **Any profession.** Use the owner's field, words and target roles. Examples in the references are illustrations.
 
 ## Start: what do you want to do?
@@ -35,8 +36,9 @@ Ask first, in plain words, and route:
 | 3. Tailor my resume to a job posting | [tailor.md](references/tailor.md) |
 | 4. Check my resume for application systems (ATS) | [ats-check.md](references/ats-check.md) only |
 | 5. Periodic check-up | [rerun.md](references/rerun.md) |
+| 6. Apply to a job (end to end) | [applying.md](references/applying.md) |
 
-Whatever they pick, set up as below first. Options 2–4 don't need the full first run: if there's no
+Whatever they pick, set up as below first. Options 2–4 and 6 don't need the full first run: if there's no
 `career-notes.md` yet, do a short version of first-run steps 1–2 (goal, a few interview questions, and an evidence
 ledger built from the resume and any evidence) and start the notes file from that.
 

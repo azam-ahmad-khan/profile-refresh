@@ -17,7 +17,8 @@ time you use it, and go **one or two steps at a time**, then wait.
 4. **Confidentiality check** (confidentiality.md (see the section marked file: references/confidentiality.md)) on every draft before you show it.
 5. **No passwords, ever.** At a sign-in page, a verification code or a CAPTCHA, stop and ask the owner to do it
    themselves, then carry on. Never ask for, type or store credentials.
-6. **Never broadcast.** Never click "share", "post", "notify network" or "share your new position".
+6. **Never broadcast, submit or send.** Never click "share", "post", "notify network" or "share your new position".
+   Never press Submit on an application or send a message. The owner does that, after checking.
 7. **Any profession.** Use the owner's field, words and target roles. Examples in the references are illustrations.
 
 ## Start: what do you want to do?
@@ -31,8 +32,9 @@ Ask first, in plain words, and route:
 | 3. Tailor my resume to a job posting | tailor.md (see the section marked file: references/tailor.md) |
 | 4. Check my resume for application systems (ATS) | ats-check.md (see the section marked file: references/ats-check.md) only |
 | 5. Periodic check-up | rerun.md (see the section marked file: references/rerun.md) |
+| 6. Apply to a job (end to end) | applying.md (see the section marked file: references/applying.md) |
 
-Whatever they pick, set up as below first. Options 2–4 don't need the full first run: if there's no
+Whatever they pick, set up as below first. Options 2–4 and 6 don't need the full first run: if there's no
 `career-notes.md` yet, do a short version of first-run steps 1–2 (goal, a few interview questions, and an evidence
 ledger built from the resume and any evidence) and start the notes file from that.
 
@@ -631,7 +633,8 @@ and the ATS check (see the section marked file: ats-check.md) with keyword cover
    it honestly instead (cover letter, proof-of-work project, a course).
 4. **Select and rewrite** in the resume Markdown format (resume.md (see the section marked file: resume.md)): pick master bullets that serve the
    must-haves and put them first, echo the posting's words where the evidence supports them, adjust the summary and
-   headline line to this role, and fit the page target with the page-fit loop (usually 2 pages). Facts must stay
+   headline line to this role, and fit the page target with the page-fit loop (the target from
+   resume.md (see the section marked file: resume.md): usually 1 page under ~5 years of experience, 2 above). Facts must stay
    identical to the master and LinkedIn. Run the confidentiality check (see the section marked file: confidentiality.md), then show a
    diff-style draft (moved / reworded / added from ledger / removed) and get the OK. Derived facts (e.g. "9 years"
    worked out from dates) are fine, but say how you worked them out. List the master bullets you dropped and why.
@@ -642,6 +645,95 @@ and the ATS check (see the section marked file: ats-check.md) with keyword cover
    "keyword coverage before → after" and the remaining gaps, and say which gaps are honest (no evidence) and which
    can be fixed. If a new answer from the owner added evidence, add it to the master too.
 7. **Log it** in `career-notes.md` → *Tailored versions*: company, role, date, file, coverage, open gaps.
+
+---
+
+<!-- file: references/applying.md -->
+
+# Applying to jobs, end to end
+
+Applying is a loop you run once per posting, on top of a solid foundation. Go one or two steps at a time. The golden
+rules still hold, plus three more: **the owner presses Submit, the owner sends every message, and nothing is
+invented**, not even in a form field.
+
+## Two sizes of search
+
+- **A handful of applications (under ~10):** this skill alone, with the *Applications* table in `career-notes.md`.
+- **A real search (dozens of applications):** use career-ops for the pipeline (evaluation, outreach, tracking,
+  follow-ups, interview prep) and this skill for the foundation and check-ups. See career-ops.md (see the section marked file: career-ops.md).
+
+## Foundation (once, before the first application)
+
+Check each one, and build what's missing with the matching part of SKILL.md:
+
+- [ ] Privacy pass done (privacy.md (see the section marked file: privacy.md)), and public visibility on now that they're applying (rerun.md (see the section marked file: rerun.md)).
+- [ ] LinkedIn matches the master resume on facts (titles, employers, dates). That's the minimum; a full polish is
+      optional and can come later.
+- [ ] If the search was quiet and is now open (or the other way round), redo the visibility, Open to Work and
+      headline choices in privacy.md (see the section marked file: privacy.md) and writing-guide.md (see the section marked file: writing-guide.md).
+- [ ] Master resume current (resume.md (see the section marked file: resume.md)).
+- [ ] `career-notes.md` with the evidence ledger and an *Applications* table.
+
+## The loop, per posting
+
+**1. Find.** Help them set up LinkedIn job alerts and saved searches for the target titles and locations (Jobs → search
+→ "Set alert"), and suggest 1–2 sources specific to their field (professional bodies, sector job boards). They paste
+or link postings they like. In browser mode you may read the posting pages.
+
+**2. Decide.** Before any tailoring, give an honest go/no-go:
+- *Fit:* score 1–5 by how many must-haves the evidence ledger covers (5 = all, with evidence; 3 = most, with honest
+  transferable evidence; 1–2 = core gaps). Recommend skipping a 1–2. Weak applications cost time and morale.
+- *Live:* posted date, "no longer accepting applications", the same role on the company's own careers page.
+- *Genuine:* a real company page and website, a plausible salary, and no requests for fees, bank details or ID copies
+  before an interview. If anything looks off, say so plainly and suggest checking the company's own site.
+
+**3. Tailor** a targeted resume from the master with tailor.md (see the section marked file: tailor.md), and run the ATS check (see the section marked file: ats-check.md) with
+this posting's keyword file.
+
+**4. Reach out, before applying.** A referral beats a cold note, and it usually has to happen *before* Submit (the
+referrer may send a referral link or submit the name themselves). Ask whether they know anyone at the company, or a
+1st/2nd-degree connection there. Wait a few days for a reply, then apply either way. Otherwise draft a note of at most 300 characters to the recruiter or hiring manager: who they are,
+the role, one evidence-backed reason, and a light ask. **Draft only. The owner sends it.**
+
+**5. Apply.** Explain the two paths in plain words:
+- *Easy Apply* sends the LinkedIn profile plus an uploaded resume, inside LinkedIn. Quick, so many people use it.
+- *Apply on company site* goes to the employer's own system. It's slower, often needs an account, and often re-types
+  the resume into fields.
+In browser mode, with the owner's OK for each new site, fill each page from the master resume and notes. The owner
+creates any account and types any password. Then **stop on the final review page**: show what's filled and let the
+owner check it and press Submit. In copy-paste mode, give each answer ready to paste. Either way:
+- *Knock-out questions* (work authorization or visa, location or relocation, years of experience, notice period,
+  salary) can reject an application automatically, so answer truthfully and carefully.
+  *Years of experience:* count only roles where the work matches what's asked, show the owner both sums if there's
+  doubt (e.g. "2 years of e-learning design, 9 years of teaching"), and let them choose. If unsure, use the
+  conservative number and explain the wider experience in the cover letter.
+  *Salary:* never guess. Ask the owner. If they want a benchmark, check 2–3 public sources (salary guides from
+  recruiters or government statistics for their country, LinkedIn or Glassdoor salary pages), cite them, and call the
+  result an estimate. If a required field still has no answer, use the owner's own figure or the portal's
+  "negotiable" option. Never make up a number for them.
+- *Upload* the PDF by default. Use the DOCX if the portal asks for Word, if its auto-filled fields come out garbled
+  from the PDF, or if the owner can't make a PDF (no Word, Pages or Google Docs to export from). Almost every portal
+  accepts Word. Fix garbled fields by hand.
+- *Cover letter*, only if asked or clearly helpful: 3 short paragraphs from the requirement table, with no new claims.
+
+**6. Track.** Add a row to *Applications* in `career-notes.md` the same day: the posting link, which resume file was
+sent, and the next action and its date. Log skipped postings too (status *skipped*, with the reason), so they aren't
+reconsidered next time.
+
+**7. Follow up** after about 5–7 business days with no reply. Draft a short, polite note: one line of continued
+interest, plus one new detail if there is a real one (never invent one). Send it to the person reached in step 4. With
+no contact, use the portal's message feature or the recruiter named on the posting, or let it rest. One follow-up per
+contact.
+
+**8. Interview prep.** From the evidence ledger, build 5–8 STAR stories (Situation, Task, Action, Result), each linked
+to a requirement in the posting. Results come only from the ledger. Add 3–5 questions for them to ask the interviewer.
+Do a practice round if they'd like one.
+
+**9. Close.**
+- *Offer accepted:* Open to Work off; add the new role on the start date with "Notify network" off; re-check the
+  headline; update the master resume. These are the triggers in rerun.md (see the section marked file: rerun.md).
+- *Rejected or withdrawn:* update the row. If several rejections share a cause (the same missing skill), suggest
+  closing it with proof-of-work.md (see the section marked file: proof-of-work.md).
 
 ---
 
@@ -715,7 +807,9 @@ has changed.
 - [ ] **1. Catch up.** Read `career-notes.md`: last run date, what is live, open questions, reminders, decisions, and
       *LinkedIn changes seen*. Tell the owner in 3–4 lines what happened last time and what's due now.
 - [ ] **2. Due reminders first.** Any reminder whose date has passed or whose condition is now true, for example
-      "turn public visibility back on when applying" or "remove Open to Work after accepting an offer".
+      "turn public visibility back on when applying" or "remove Open to Work after accepting an offer". Then read the
+      *Applications* table: flag follow-ups past their date, and for any *offer*, go through the "Accepted an offer"
+      row below.
 - [ ] **3. What's new?** Ask (one question at a time): new role, title or team? New project, certificate, publication
       or award? Are the target roles the same? Still job-hunting, and still employed? Read any new evidence they point
       to and add it to the ledger.
@@ -775,6 +869,26 @@ If the owner uses career-ops, offer once (on OK, showing the diff) to fill these
 | Proof-of-work project (name, public link, verified outcome) | `narrative.proof_points[]` (`name`, `url`, `hero_metric`) |
 | Location to show | `location.city`, `location.country` |
 | LinkedIn URL, portfolio link | `candidate.linkedin`, `candidate.portfolio_url` |
+
+## Handing the application pipeline to career-ops
+
+Suggest career-ops when it's already installed, or when the owner is starting a real search (dozens of applications).
+Split the work like this:
+
+| applying.md (see the section marked file: applying.md) step | Who does it |
+|---|---|
+| Foundation, 3 Tailor, 5 Apply, 9 Close, check-ups | This skill |
+| 2 Decide | career-ops `oferta` (scores a posting against the CV) |
+| 1 Find, at scale | career-ops `scan` (job boards and company portals) |
+| 4 Reach out | career-ops `contacto` (drafts only; the owner sends) |
+| 6 Track | career-ops `tracker` (`data/applications.md` becomes the source of truth; stop using the notes table) |
+| 7 Follow up | career-ops `followup` |
+| 8 Interview prep | career-ops `interview-prep` (its story bank), with results checked against the ledger |
+
+To avoid typing anything twice, export the master resume as `cv.md` and fill the `config/profile.yml` fields above,
+on the owner's OK. Be honest about setup: career-ops runs inside an AI coding tool and is installed with
+`npx @santifer/career-ops init`. A non-technical owner needs someone to set it up once. Interoperate through its files.
+Never copy its code or modes into this skill. It's MIT-licensed, but it changes fast and has its own maintainers.
 
 For tailoring to a specific posting, see tailor.md (see the section marked file: tailor.md): career-ops' own tailoring is the better tool there,
 and this skill adds the evidence table, the gap questions and the ATS check.
@@ -852,6 +966,13 @@ Private working notes for the profile-refresh skill. Keep this file on your own 
 
 | Date | Company · role | File | Keyword coverage master → targeted | Master bullets dropped (why) | Open gaps |
 |---|---|---|---|---|---|
+
+## Applications
+
+Statuses: skipped / applied / screen / interview / offer / accepted / rejected / withdrawn. Channel: Easy Apply / company site / referral.
+
+| Date | Company | Role | Posting link | Resume file sent | Channel | Contact reached | Status | Next action + date |
+|---|---|---|---|---|---|---|---|---|
 
 ## Decisions
 

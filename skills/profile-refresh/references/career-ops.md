@@ -30,6 +30,26 @@ If the owner uses career-ops, offer once (on OK, showing the diff) to fill these
 | Location to show | `location.city`, `location.country` |
 | LinkedIn URL, portfolio link | `candidate.linkedin`, `candidate.portfolio_url` |
 
+## Handing the application pipeline to career-ops
+
+Suggest career-ops when it's already installed, or when the owner is starting a real search (dozens of applications).
+Split the work like this:
+
+| [applying.md](applying.md) step | Who does it |
+|---|---|
+| Foundation, 3 Tailor, 5 Apply, 9 Close, check-ups | This skill |
+| 2 Decide | career-ops `oferta` (scores a posting against the CV) |
+| 1 Find, at scale | career-ops `scan` (job boards and company portals) |
+| 4 Reach out | career-ops `contacto` (drafts only; the owner sends) |
+| 6 Track | career-ops `tracker` (`data/applications.md` becomes the source of truth; stop using the notes table) |
+| 7 Follow up | career-ops `followup` |
+| 8 Interview prep | career-ops `interview-prep` (its story bank), with results checked against the ledger |
+
+To avoid typing anything twice, export the master resume as `cv.md` and fill the `config/profile.yml` fields above,
+on the owner's OK. Be honest about setup: career-ops runs inside an AI coding tool and is installed with
+`npx @santifer/career-ops init`. A non-technical owner needs someone to set it up once. Interoperate through its files.
+Never copy its code or modes into this skill. It's MIT-licensed, but it changes fast and has its own maintainers.
+
 For tailoring to a specific posting, see [tailor.md](tailor.md): career-ops' own tailoring is the better tool there,
 and this skill adds the evidence table, the gap questions and the ATS check.
 

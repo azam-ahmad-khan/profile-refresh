@@ -5,7 +5,7 @@ for any profession and with any capable AI assistant (Claude, ChatGPT, Gemini, G
 again every few months to keep things fresh.
 
 It starts by asking what you want to do: refresh LinkedIn, update your resume, tailor your resume to a job posting,
-check a resume for application systems (ATS), or run a periodic check-up.
+check a resume for application systems (ATS), run a periodic check-up, or apply to a job end to end.
 
 It works like a careful friend sitting next to you:
 
@@ -25,7 +25,11 @@ It works like a careful friend sitting next to you:
    letter-spacing, fonts, page fill) and reports what to fix. No check can guarantee a pass, and it won't claim one.
 7. **Tailors your resume to one posting** by mapping each requirement to real evidence and asking you about the gaps.
    It never makes things up, and it reports keyword coverage before and after.
-8. **Remembers between runs** in a private notes file on your computer, so the next check-up only proposes what's new.
+8. **Walks you through applying**: an honest go/no-go per posting (including scam checks), a tailored resume, filling
+   the application form while you watch (it stops before Submit), referral and recruiter-note drafts that you send,
+   a simple tracker, follow-ups, and interview stories from your real work. For a big search it hands the pipeline
+   to [career-ops](https://github.com/career-ops-hq/career-ops).
+9. **Remembers between runs** in a private notes file on your computer, so the next check-up only proposes what's new.
 
 It never types your password. When LinkedIn asks you to sign in, it stops and lets you do it.
 
@@ -79,7 +83,7 @@ files (`cv.md`, `article-digest.md`) if you already use that tool for job applic
 skills/profile-refresh/
   SKILL.md                    the workflow
   references/                 interview, privacy, confidentiality, writing guide, LinkedIn quirks, copy-paste mode,
-                              resume, ATS check, tailoring, proof of work, re-runs, career-ops
+                              resume, ATS check, tailoring, applying, proof of work, re-runs, career-ops
   scripts/resume_docx.py      Markdown resume → ATS-friendly Word file (plain or polished)
   scripts/ats_check.py        PASS/WARN/FAIL parse check for a resume PDF or Word file
   templates/career-notes.md   your private notes file (copied to your folder on first run)
