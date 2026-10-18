@@ -1,0 +1,14 @@
+{
+  "name": "profile-refresh",
+  "owner": {
+    "name": "Azam Khan"
+  },
+  "description": "Evidence-based LinkedIn profile and resume refresh skill for any profession.",
+  "plugins": [
+    {
+      "name": "profile-refresh",
+      "source": ".",
+      "description": "Evidence-based LinkedIn profile and resume refresh for any profession."
+    }
+  ]
+}

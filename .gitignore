@@ -1,0 +1,5 @@
+# Personal career data never belongs in this repo.
+career-notes.md
+*.pdf
+*.docx
+.DS_Store
