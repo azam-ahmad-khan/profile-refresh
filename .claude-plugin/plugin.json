@@ -1,7 +1,7 @@
 {
   "name": "profile-refresh",
   "description": "Evidence-based LinkedIn profile and resume refresh for any profession: privacy settings first, every change drafted and approved before it is saved, a confidentiality check, ATS-friendly resumes, tailoring to a job posting without invention, and proof-of-work project ideas. Re-run it every few months.",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "author": { "name": "Azam Khan" },
   "license": "MIT",
   "keywords": ["linkedin", "resume", "cv", "career", "job-search", "profile"]

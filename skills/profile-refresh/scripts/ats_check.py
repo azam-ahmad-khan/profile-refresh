@@ -35,6 +35,27 @@ DATE_FORMATS = {
 }
 RANGE_RE = re.compile(rf"((?:{MONTH}\s+)?(?:\d{{1,2}}/)?(?:19|20)\d{{2}})\s*(?:-|–|—|to)\s*"
                       rf"((?:{MONTH}\s+)?(?:\d{{1,2}}/)?(?:19|20)\d{{2}}|present|current|now)", re.I)
+COUNTRIES = {
+    "afghanistan", "algeria", "argentina", "australia", "austria", "bahrain", "bangladesh", "belgium", "brazil",
+    "canada", "chile", "china", "colombia", "czechia", "denmark", "egypt", "england", "estonia", "ethiopia",
+    "finland", "france", "germany", "ghana", "greece", "hong kong", "hungary", "india", "indonesia", "iran", "iraq",
+    "ireland", "israel", "italy", "japan", "jordan", "kenya", "korea", "kuwait", "lebanon", "malaysia", "mexico",
+    "morocco", "nepal", "netherlands", "new zealand", "nigeria", "norway", "oman", "pakistan", "palestine", "peru",
+    "philippines", "poland", "portugal", "qatar", "romania", "russia", "saudi arabia", "scotland", "serbia",
+    "singapore", "south africa", "south korea", "spain", "sri lanka", "sweden", "switzerland", "syria", "taiwan",
+    "tanzania", "thailand", "tunisia", "turkey", "türkiye", "uganda", "ukraine", "united arab emirates",
+    "united kingdom", "united states", "usa", "vietnam", "wales", "yemen",
+}
+REGION_CODES = {
+    "UAE", "UK", "US", "USA", "KSA", "NZ",
+    "AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "DC", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA",
+    "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR",
+    "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY",
+    "ON", "BC", "QC", "AB", "MB", "NS", "NB", "NL", "PE", "SK",
+}
+# "Abu Dhabi, UAE", "Austin, TX", "Leeds, United Kingdom"; the region must be a known country or code, so a skills
+# headline like "Java, AWS" doesn't count as a location.
+CITY_REGION_RE = re.compile(r"^[A-Z][\w'.-]*(?:\s[A-Z][\w'.-]*){0,3},\s*(?P<region>[A-Z]{2,3}|[A-Z][a-zA-Zü]+(?:\s[A-Z][a-z]+){0,2})$")
 SPACED_RE = re.compile(r"(?<![A-Za-z])(?:[A-Za-z] ){3,}[A-Za-z](?![A-Za-z])")
 
 URL_RE = re.compile(r"(?:https?://|www\.)[^\s|,;)]*[^\s|,;).!?:]|\b[a-z0-9-]+(?:\.[a-z0-9-]+)*\."
@@ -219,6 +240,36 @@ def read_docx(path, args):
     return "\n".join("".join(t.text or "" for t in p._p.iter(qn_t())) for p in doc.paragraphs)
 
 
+def is_heading_line(line):
+    words = line.lower().strip(": ")
+    return (len(line.split()) <= 4 and len(line) < 40 and any(stem in words for stem in HEADING_STEMS)
+            and (line.isupper() or line.istitle()))
+
+
+def contact_block(lines):
+    # The lines after the name and before the first section heading; role headers and bullets never count.
+    block = []
+    for line in lines[1:9]:
+        if is_heading_line(line):
+            break
+        block.append(line)
+    return block
+
+
+def has_location(block):
+    for line in block:
+        for segment in re.split(r"\s*(?:[|·•;\t]|\s{2,}| - | – )\s*", line):
+            segment = segment.strip()
+            if re.match(r"(?i)location\s*:\s*\S", segment) or re.fullmatch(r"(?i)remote(\s*\(.*\))?", segment):
+                return True
+            match = CITY_REGION_RE.match(segment)
+            if match:
+                region = match.group("region")
+                if region in REGION_CODES or region.lower() in COUNTRIES:
+                    return True
+    return False
+
+
 def check_text(text, path, args):
     lines = [line.strip() for line in text.splitlines() if line.strip()]
     if len(text.strip()) < 300:
@@ -254,13 +305,11 @@ def check_text(text, path, args):
                    "" if where == "top" else "Move contact details to the top.")
         else:
             report("FAIL" if label == "Email" else "WARN", f"Contact: {label}", "not found", fix)
-    contact_lines = "\n".join(line for line in lines[:6] if "@" in line or "|" in line or "location" in line.lower()
-                              or PHONE_RE.search(line))
-    if re.search(r"((?i:location)\s*:|(?:^|\|\s*)[A-Z][a-z]+(?: [A-Z][a-z]+)*,\s*[A-Z][A-Za-z]+\s*(?:\||$))",
-                 contact_lines, re.M):
-        report("PASS", "Contact: Location", "a city/country appears near the top")
+    if has_location(contact_block(lines)):
+        report("PASS", "Contact: Location", "a city/country appears in the contact lines")
     else:
-        report("WARN", "Contact: Location", "no 'City, Country' near the top", "Add 'City, Country' to the contact line.")
+        report("WARN", "Contact: Location", "no 'City, Country' in the contact lines",
+               "Add 'City, Country' (or 'Remote') to the contact line under your name.")
 
     headings = [line for line in lines if len(line.split()) <= 4 and len(line) < 40 and not line.endswith(".")
                 and any(stem in line.lower() for stem in HEADING_STEMS)

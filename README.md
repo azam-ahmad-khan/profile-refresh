@@ -90,6 +90,7 @@ skills/profile-refresh/
 portable/                     one-file version and how-to for other AIs
 AGENTS.md                     pointer for AI agents that read this repo directly
 scripts/build-portable.sh     rebuilds the one-file version after editing the skill
+tests/test_ats_check.py       checks for the ATS checker (uv run --with pypdf --with python-docx python -m unittest discover tests)
 examples/sample-profile/      a fictional person and a recorded dry run
 ```
 

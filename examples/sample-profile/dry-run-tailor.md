@@ -210,7 +210,9 @@ the check so far; that is not a guarantee for any particular system.
   "SAM" and "LMS" found. Coverage for short acronyms can be a false PASS. Fixed since: whole-word matching,
   case-sensitive for short acronyms.
 - Location also passed with "Dubai, UAE" removed from the contact line; the regex matched a "Word, Word" pair elsewhere
-  near the top (e.g. "School, Dubai").
+  near the top (e.g. "School, Dubai"). Fixed since: only the contact lines between the name and the first section
+  heading count, and the region must be a known country or code (UAE, UK, USA, TX…), "Location: …" or "Remote".
+  Regression test in `tests/test_ats_check.py`.
 - The base resume was "approved", yet it carried "storyboarding" (unconfirmed) and "(Grades 9–12)" (unconfirmed).
   The skill doesn't say whether an approved base counts as Owner-confirmed; this run kept unasked base claims and
   dropped the ones Layla couldn't confirm when asked.
